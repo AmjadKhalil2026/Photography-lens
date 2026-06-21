@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.5">
 <title>Photography-Lens | Media &amp; Photography Analysis</title>
 <script src="https://cdn.plot.ly/plotly-2.32.0.min.js"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
