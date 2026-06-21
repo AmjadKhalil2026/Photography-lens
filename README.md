@@ -37,7 +37,7 @@ main{max-width:1280px;margin:0 auto;padding:40px 24px 80px}
 .section{display:none}
 .section.active{display:block}
 
-.kpi-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;margin-bottom:48px}
+.kpi-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px;margin-bottom:48px}
 .kpi-card{background:var(--white);border-radius:var(--radius);padding:28px 24px;box-shadow:var(--shadow);border-left:5px solid var(--gold);transition:transform .2s,box-shadow .2s}
 .kpi-card:hover{transform:translateY(-3px);box-shadow:0 8px 32px rgba(38,61,105,.14)}
 .kpi-card:nth-child(2){border-left-color:var(--blue)}
