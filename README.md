@@ -55,7 +55,7 @@ main{max-width:1680px;margin:0 auto;padding:40px 24px 80px}
 
 .chart-card{background:var(--white);border-radius:var(--radius);padding:28px 24px;box-shadow:var(--shadow);margin-bottom:28px;transition:box-shadow .2s}
 .chart-card:hover{box-shadow:0 8px 36px rgba(38,61,105,.13)}
-.chart-grid-2{display:grid;grid-template-columns:repeat(auto-fit,minmax(480px,1fr));gap:24px;margin-bottom:28px}
+.chart-grid-2{display:grid;grid-template-columns:repeat(auto-fit,minmax(480px,1fr));gap:10px;margin-bottom:10px}
 .chart-grid-2 .chart-card{margin-bottom:0}
 .plotly-div{width:100%;min-height:380px}
 
@@ -113,6 +113,7 @@ footer .ft{font-family:'Playfair Display',serif;font-size:1.4rem;color:var(--cre
 
 <nav>
   <div class="nav-inner">
+    <button class="nav-tab" onclick="showSection('about',this)">🎬 عن المشروع</button>
     <button class="nav-tab active" onclick="showSection('overview',this)">📋 Overview</button>
     <button class="nav-tab" onclick="showSection('experience',this)">📈 Experience</button>
     <button class="nav-tab" onclick="showSection('engagement',this)">💬 Engagement</button>
@@ -122,7 +123,6 @@ footer .ft{font-family:'Playfair Display',serif;font-size:1.4rem;color:var(--cre
     <button class="nav-tab" onclick="showSection('stats',this)">🔢 Statistics</button>
     <button class="nav-tab" onclick="showSection('insights',this)">💡 Insights</button>
     <button class="nav-tab" onclick="showSection('data',this)">🗃️ Data</button>
-    <button class="nav-tab" onclick="showSection('about',this)">🎬 عن المشروع</button>
   </div>
 </nav>
 
