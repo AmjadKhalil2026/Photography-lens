@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -27,17 +28,17 @@ header{background:linear-gradient(135deg,var(--navy) 0%,var(--blue) 60%,var(--go
 .hdr-circle::after{content:'';position:absolute;top:80px;right:80px;width:220px;height:220px;border-radius:50%;background:rgba(255,255,255,.06)}
 
 nav{background:var(--white);border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;box-shadow:0 2px 12px rgba(38,61,105,.08)}
-.nav-inner{max-width:1680px;margin:0 auto;padding:0 32px;display:flex;gap:4px;overflow-x:auto;scrollbar-width:none}
+.nav-inner{max-width:1280px;margin:0 auto;padding:0 32px;display:flex;gap:4px;overflow-x:auto;scrollbar-width:none}
 .nav-inner::-webkit-scrollbar{display:none}
 .nav-tab{padding:16px 20px;font-size:.85rem;font-weight:600;color:var(--muted);text-decoration:none;border-bottom:3px solid transparent;white-space:nowrap;transition:color .2s,border-color .2s;cursor:pointer;background:none;border-top:none;border-left:none;border-right:none;font-family:inherit}
 .nav-tab:hover{color:var(--blue)}
 .nav-tab.active{color:var(--blue);border-bottom-color:var(--gold)}
 
-main{max-width:1680px;margin:0 auto;padding:40px 24px 80px}
+main{max-width:1280px;margin:0 auto;padding:40px 24px 80px}
 .section{display:none}
 .section.active{display:block}
 
-.kpi-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px;margin-bottom:28px}
+.kpi-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;margin-bottom:48px}
 .kpi-card{background:var(--white);border-radius:var(--radius);padding:28px 24px;box-shadow:var(--shadow);border-left:5px solid var(--gold);transition:transform .2s,box-shadow .2s}
 .kpi-card:hover{transform:translateY(-3px);box-shadow:0 8px 32px rgba(38,61,105,.14)}
 .kpi-card:nth-child(2){border-left-color:var(--blue)}
@@ -55,7 +56,7 @@ main{max-width:1680px;margin:0 auto;padding:40px 24px 80px}
 
 .chart-card{background:var(--white);border-radius:var(--radius);padding:28px 24px;box-shadow:var(--shadow);margin-bottom:28px;transition:box-shadow .2s}
 .chart-card:hover{box-shadow:0 8px 36px rgba(38,61,105,.13)}
-.chart-grid-2{display:grid;grid-template-columns:repeat(auto-fit,minmax(480px,1fr));gap:10px;margin-bottom:10px}
+.chart-grid-2{display:grid;grid-template-columns:repeat(auto-fit,minmax(480px,1fr));gap:24px;margin-bottom:28px}
 .chart-grid-2 .chart-card{margin-bottom:0}
 .plotly-div{width:100%;min-height:380px}
 
@@ -113,7 +114,6 @@ footer .ft{font-family:'Playfair Display',serif;font-size:1.4rem;color:var(--cre
 
 <nav>
   <div class="nav-inner">
-    <button class="nav-tab" onclick="showSection('about',this)">🎬 عن المشروع</button>
     <button class="nav-tab active" onclick="showSection('overview',this)">📋 Overview</button>
     <button class="nav-tab" onclick="showSection('experience',this)">📈 Experience</button>
     <button class="nav-tab" onclick="showSection('engagement',this)">💬 Engagement</button>
@@ -123,6 +123,7 @@ footer .ft{font-family:'Playfair Display',serif;font-size:1.4rem;color:var(--cre
     <button class="nav-tab" onclick="showSection('stats',this)">🔢 Statistics</button>
     <button class="nav-tab" onclick="showSection('insights',this)">💡 Insights</button>
     <button class="nav-tab" onclick="showSection('data',this)">🗃️ Data</button>
+    <button class="nav-tab" onclick="showSection('about',this)">🎬 عن المشروع</button>
   </div>
 </nav>
 
@@ -267,15 +268,40 @@ footer .ft{font-family:'Playfair Display',serif;font-size:1.4rem;color:var(--cre
 
 <!-- ABOUT -->
 <section id="about" class="section">
-  <div class=WordSection1>
+  
+<div class=WordSection1>
+
 <p class=MsoNormal dir=RTL style='text-align:right;direction:rtl;unicode-bidi:
 embed'><img width=313 height=209 src="image001.jpg" align=left
-hspace=12><img width=1280 height=300 src="image002.jpg" align=right    
-    hspace=12>فكرة المشروع
-<p class=MsoNormal dir=RTL style='text-align:justify;text-justify:kashida;
-text-kashida:0%;direction:rtl;unicode-bidi:embed'>هذا المشروع عبارة عن تحليل بيانات لصناع المحتوى والمصورين باستخدام لغة Python يتضمن المشروع بيانات لعشرة مصورين تحتوي على معلومات مثل الاسم، العمر، المدينة نوع المحتوى، عدد المشاهدات الشهرية، عدد المشاريع المنجزة، معدل التفاعل، نوع الكاميرا المستخدمة، وسنوات الخبرة تم جمع هذه البيانات بهدف دراسة العوامل التي تؤثر في نجاح صناع المحتوى والمصورين وفهم العلاقة بين الخبرة والأداء الرقمي من خلال المشروع تم استخدام أدوات تحليل البيانات والرسوم البيانية لإجراء بين صناع المحتوى والمصورين من حيث عدد المشاهدات ومعدل التفاعل وعدد المشاريع المنجزة. كما تم تحليل تأثير الخبرة ونوع المحتوى على مستوى الأداء، مما ساعد في استخراج نتائج واستنتاجات توضح أهم العوامل المرتبطة بالنجاح في مجال الإعلام الرقمي والتصوير.
+hspace=12><img width=921 height=297 src="image002.jpg" align=right
+hspace=12><span lang=AR-JO style='font-size:16.0pt;line-height:115%;font-family:
 
-  <footer>
+
+"Mada Black"'>فكرة المشروع:</span></p>
+<p class=MsoNormal dir=RTL style='text-align:justify;text-justify:kashida;
+text-kashida:0%;direction:rtl;unicode-bidi:embed'><span lang=AR-SA
+style='font-size:12.0pt;line-height:115%;font-family:"Mada Black"'>هذا المشروع عبارة عن تحليل بيانات لصناع المحتوى والمصورين باستخدام لغة Python يتضمن المشروع بيانات لعشرة مصورين تحتوي على معلومات مثل الاسم، العمر، المدينة</span><span dir=LTR></span><span
+dir=LTR style='font-size:12.0pt;line-height:115%;font-family:"Mada Black"'><span
+dir=LTR></span> </span><span lang=AR-SA style='font-size:12.0pt;
+line-height:115%;font-family:"Mada Black"'>، نوع المحتوى، عدد المشاهدات الشهرية، عدد المشاريع المنجزة، معدل التفاعل، نوع الكاميرا المستخدمة، وسنوات الخبرة تم جمع هذه البيانات بهدف دراسة العوامل التي تؤثر في نجاح صناع المحتوى والمصورين وفهم العلاقة بين الخبرة والأداء الرقمي من خلال المشروع تم استخدام أدوات تحليل البيانات والرسوم البيانية لإجراء  </span><span dir=LTR></span><span lang=AR-SA dir=LTR style='font-size:
+12.0pt;line-height:115%;font-family:"Mada Black"'><span dir=LTR></span> </span><span
+lang=AR-SA style='font-size:12.0pt;line-height:115%;font-family:"Mada Black"'>مقارنات</span><span
+dir=LTR></span><span lang=AR-SA dir=LTR style='font-size:16.0pt;line-height:
+115%;font-family:"Mada Black"'><span dir=LTR></span> </span><span lang=AR-SA
+style='font-size:12.0pt;line-height:115%;font-family:"Mada Black"'>بين صناع المحتوى والمصورين من حيث عدد المشاهدات ومعدل التفاعل وعدد المشاريع المنجزة. كما تم تحليل تأثير الخبرة ونوع المحتوى على مستوى الأداء، مما ساعد في استخراج نتائج واستنتاجات توضح أهم العوامل المرتبطة بالنجاح في مجال الإعلام الرقمي والتصوير.</span><span
+dir=LTR></span><span dir=LTR style='font-size:12.0pt;line-height:115%;
+font-family:"Mada Black"'><span dir=LTR></span></span></p>
+
+<p class=MsoNormal dir=RTL style='text-align:right;direction:rtl;unicode-bidi:
+embed'><span dir=LTR>&nbsp;</span></p>
+
+</div>
+
+</section>
+
+</main>
+
+<footer>
   <div class="ft">Photography-Lens مشروع عدسة الصحافة الفوتوغرافية</div>
   <p>Introduction to coding for journalists AAUP - Instructor: Amjad Khalil</p>
   <p style="margin-top:8px;font-size:1rem;opacity:.7">Arab American University · Ramallah Campus · Faculty of Modern Media</p>
@@ -309,3 +335,5 @@ function showSection(id, btn) {
 
 window.addEventListener('load', renderAll);
 </script>
+</body>
+</html>
