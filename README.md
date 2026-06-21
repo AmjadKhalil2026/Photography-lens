@@ -267,8 +267,7 @@ footer .ft{font-family:'Playfair Display',serif;font-size:1.4rem;color:var(--cre
 
 <!-- ABOUT -->
 <section id="about" class="section">
-  
-<div class=WordSection1>
+  <div class=WordSection1>
 
 <p class=MsoNormal dir=RTL style='text-align:right;direction:rtl;unicode-bidi:
 embed'><img width=313 height=209 src="image001.jpg" align=left
@@ -295,7 +294,6 @@ font-family:"Mada Black"'><span dir=LTR></span></span></p>
 embed'><span dir=LTR>&nbsp;</span></p>
 
 </div>
-
 </section>
 
 </main>
