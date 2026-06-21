@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -27,17 +28,17 @@ header{background:linear-gradient(135deg,var(--navy) 0%,var(--blue) 60%,var(--go
 .hdr-circle::after{content:'';position:absolute;top:80px;right:80px;width:220px;height:220px;border-radius:50%;background:rgba(255,255,255,.06)}
 
 nav{background:var(--white);border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;box-shadow:0 2px 12px rgba(38,61,105,.08)}
-.nav-inner{max-width:1280px;margin:0 auto;padding:0 32px;display:flex;gap:4px;overflow-x:auto;scrollbar-width:none}
+.nav-inner{max-width:1480px;margin:0 auto;padding:0 32px;display:flex;gap:4px;overflow-x:auto;scrollbar-width:none}
 .nav-inner::-webkit-scrollbar{display:none}
 .nav-tab{padding:16px 20px;font-size:.85rem;font-weight:600;color:var(--muted);text-decoration:none;border-bottom:3px solid transparent;white-space:nowrap;transition:color .2s,border-color .2s;cursor:pointer;background:none;border-top:none;border-left:none;border-right:none;font-family:inherit}
 .nav-tab:hover{color:var(--blue)}
 .nav-tab.active{color:var(--blue);border-bottom-color:var(--gold)}
 
-main{max-width:1280px;margin:0 auto;padding:40px 24px 80px}
+main{max-width:1480px;margin:0 auto;padding:40px 24px 80px}
 .section{display:none}
 .section.active{display:block}
 
-.kpi-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;margin-bottom:48px}
+.kpi-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px;margin-bottom:24px}
 .kpi-card{background:var(--white);border-radius:var(--radius);padding:28px 24px;box-shadow:var(--shadow);border-left:5px solid var(--gold);transition:transform .2s,box-shadow .2s}
 .kpi-card:hover{transform:translateY(-3px);box-shadow:0 8px 32px rgba(38,61,105,.14)}
 .kpi-card:nth-child(2){border-left-color:var(--blue)}
@@ -59,7 +60,7 @@ main{max-width:1280px;margin:0 auto;padding:40px 24px 80px}
 .chart-grid-2 .chart-card{margin-bottom:0}
 .plotly-div{width:100%;min-height:380px}
 
-.table-wrap{overflow-x:auto;border-radius:12px;box-shadow:var(--shadow);margin-bottom:28px}
+.table-wrap{overflow-x:auto;border-radius:12px;box-shadow:var(--shadow);margin-bottom:18px}
 table{width:100%;border-collapse:collapse;background:var(--white);font-size:.88rem}
 thead tr{background:linear-gradient(90deg,var(--navy),var(--blue));color:var(--white)}
 thead th{padding:14px 16px;font-weight:600;text-align:left;letter-spacing:.3px}
