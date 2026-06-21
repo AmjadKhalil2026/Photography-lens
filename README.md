@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -86,13 +85,13 @@ tbody td:first-child{font-weight:600;color:var(--navy)}
 footer{background:linear-gradient(135deg,var(--navy),var(--blue));color:rgba(255,238,201,.75);text-align:center;padding:40px 24px;font-size:.85rem}
 footer .ft{font-family:'Playfair Display',serif;font-size:1.4rem;color:var(--cream);margin-bottom:8px}
 
-@media(max-width:768px){
+@media(max-width:968px){
   .hdr{flex-direction:column;text-align:center;padding:40px 20px}
   .chart-grid-2{grid-template-columns:1fr}
   main{padding:24px 16px 60px}
   .kpi-grid{grid-template-columns:repeat(2,1fr)}
 }
-@media(max-width:480px){
+@media(max-width:680px){
   .kpi-grid{grid-template-columns:1fr}
   .kpi-value{font-size:1.6rem}
 }
