@@ -273,8 +273,6 @@ footer .ft{font-family:'Playfair Display',serif;font-size:1.4rem;color:var(--cre
 embed'><img width=313 height=209 src="image001.jpg" align=left
 hspace=12><img width=921 height=297 src="image002.jpg" align=right
 hspace=12><span lang=AR-JO style='font-size:16.0pt;line-height:115%;font-family:
-
-
 "Mada Black"'>فكرة المشروع:</span></p>
 <p class=MsoNormal dir=RTL style='text-align:justify;text-justify:kashida;
 text-kashida:0%;direction:rtl;unicode-bidi:embed'><span lang=AR-SA
