@@ -272,12 +272,10 @@ footer .ft{font-family:'Playfair Display',serif;font-size:1.4rem;color:var(--cre
 <p class=MsoNormal dir=RTL style='text-align:right;direction:rtl;unicode-bidi:
 embed'><img width=313 height=209 src="image001.jpg" align=left
 hspace=12><img width=921 height=297 src="image002.jpg" align=right
-hspace=12>فكرة المشروع:<
+hspace=12>فكرة المشروع
 <p class=MsoNormal dir=RTL style='text-align:justify;text-justify:kashida;
 text-kashida:0%;direction:rtl;unicode-bidi:embed'>هذا المشروع عبارة عن تحليل بيانات لصناع المحتوى والمصورين باستخدام لغة Python يتضمن المشروع بيانات لعشرة مصورين تحتوي على معلومات مثل الاسم، العمر، المدينة</span><span dir=LTR></span><span
-dir=LTR style='font-size:12.0pt;line-height:115%;font-family:"Mada Black"'><span
-dir=LTR></span> </span><span lang=AR-SA style='font-size:12.0pt;
-line-height:115%;font-family:"Mada Black"'>، نوع المحتوى، عدد المشاهدات الشهرية، عدد المشاريع المنجزة، معدل التفاعل، نوع الكاميرا المستخدمة، وسنوات الخبرة تم جمع هذه البيانات بهدف دراسة العوامل التي تؤثر في نجاح صناع المحتوى والمصورين وفهم العلاقة بين الخبرة والأداء الرقمي من خلال المشروع تم استخدام أدوات تحليل البيانات والرسوم البيانية لإجراء  </span><span dir=LTR></span><span lang=AR-SA dir=LTR style='font-size:
+dir=LTR style='font-size:12.0pt;line-height:115%;font-family:"Mada Black"'>، نوع المحتوى، عدد المشاهدات الشهرية، عدد المشاريع المنجزة، معدل التفاعل، نوع الكاميرا المستخدمة، وسنوات الخبرة تم جمع هذه البيانات بهدف دراسة العوامل التي تؤثر في نجاح صناع المحتوى والمصورين وفهم العلاقة بين الخبرة والأداء الرقمي من خلال المشروع تم استخدام أدوات تحليل البيانات والرسوم البيانية لإجراء  </span><span dir=LTR></span><span lang=AR-SA dir=LTR style='font-size:
 12.0pt;line-height:115%;font-family:"Mada Black"'><span dir=LTR></span> </span><span
 lang=AR-SA style='font-size:12.0pt;line-height:115%;font-family:"Mada Black"'>مقارنات</span><span
 dir=LTR></span><span lang=AR-SA dir=LTR style='font-size:16.0pt;line-height:
@@ -286,13 +284,7 @@ style='font-size:12.0pt;line-height:115%;font-family:"Mada Black"'>بين صنا
 dir=LTR></span><span dir=LTR style='font-size:12.0pt;line-height:115%;
 font-family:"Mada Black"'><span dir=LTR></span></span></p>
 
-<p class=MsoNormal dir=RTL style='text-align:right;direction:rtl;unicode-bidi:
-embed'><span dir=LTR>&nbsp;</span></p>
 
-</div>
-</section>
-
-</main>
 
 <footer>
   <div class="ft">Photography-Lens مشروع عدسة الصحافة الفوتوغرافية</div>
